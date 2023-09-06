@@ -17,6 +17,10 @@ function mintNft() public {
 
 }
 
+function tokenURI(uint256 tokenId) public view override returns(string memory{
+    //return
+}
+
 
  function getTokenCounter() external view returns (uint256) {
     return s_tokenCounter;
